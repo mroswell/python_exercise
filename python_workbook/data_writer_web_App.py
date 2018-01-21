@@ -2,7 +2,7 @@ from flask import Flask,render_template_string,request
 
 app = Flask(__name__)
 html = """
-    <div class = "form>
+    <div class = "form">
     <form action="{{url_for('sent')}}" method="POST">
         <input title="Your email address will be safe with us." placeholder="Enter a line" type="text">
         <button class ="go-button" type="submit"> Submit </button>
